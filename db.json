@@ -1,46 +1,31 @@
 {
   "plants": [
     {
-      "id": 1,
-      "name": "Aloe",
-      "image": "./images/aloe.jpg",
-      "price": 15.99
-    },
-    {
-      "id": 2,
-      "name": "ZZ Plant",
-      "image": "./images/zz-plant.jpg",
-      "price": 25.98
-    },
-    {
-      "id": 3,
-      "name": "Pilea peperomioides",
-      "image": "./images/pilea.jpg",
-      "price": 5.99
-    },
-    {
-      "id": 4,
-      "name": "Pothos",
-      "image": "./images/pothos.jpg",
-      "price": 12.11
-    },
-    {
-      "id": 5,
-      "name": "Jade",
-      "image": "./images/jade.jpg",
-      "price": 10.37
-    },
-    {
       "id": 6,
       "name": "Monstera Deliciosa",
       "image": "./images/monstera.jpg",
-      "price": 25.99
+      "price": 25.99,
+      "isInStock": false
     },
     {
       "id": 7,
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Clipart",
+      "image": "data:image/jpeg;base64,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",
+      "price": "15.42",
+      "id": 19,
+      "isInStock": false
+    },
+    {
+      "name": "Cleopatra",
+      "image": "https://img.freepik.com/free-photo/fiddle-leaf-fig-plant-pot_53876-134274.jpg",
+      "price": "21.50",
+      "id": 20,
+      "isInStock": false
     }
   ]
 }
